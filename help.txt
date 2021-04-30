@@ -1,0 +1,13 @@
+// JS 
+
+// de lado del servidor
+// Node.js y Deno 
+
+//Aplicaciones mobiles hibridas IOS , Android
+// React Native, Ionic, Capacitor.js, Cordova 
+
+// Aplicacion de escritorio
+// Electron.js
+
+// del lado del cliente (parte del diseño de las web)
+// React, Angular, Vue, Jquery
