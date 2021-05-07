@@ -2,13 +2,41 @@
 <head></head>
 <body>
     
+    <div 
+    id="block"
+    class="bloqueAzul" 
+    style="background-color: blue; height: 100px; width: 100px;">
+    </div>
+
+    <div 
+    id="block2"
+    class="bloqueAzul2" 
+    style="background-color: blue; height: 100px; width: 100px;">
+    </div>
+
+    <div 
+    onclick="document.getElementById('text').style.display = 'none';
+     alert(' se ha eliminado el div');" 
+    id="text"></div>
+
+    <br>
+    <br>
+    <br>
+
+    <label for="edad">Edad:</label>
+    <input id="edad" type="number" />
+    <span id="error" style="color:red"></span>
+    <button id="botonIngresar">Ingresar</button>
+
+    <script src="nodes.js"></script>
+    <script src="orden_de_ejecucion.js"></script>
 
     <script>
         // agregar codigo aqui
     </script>
 
-    <script src="index.js"></script>
-    <script src="recursos/desdeCarpeta.js"></script>
+    <!-- <script src="index.js"></script> -->
+    <!-- <script src="recursos/desdeCarpeta.js"></script> -->
    <!-- <script src="../recursos/desdeCarpeta.js"></script> --> 
 
 </body>
