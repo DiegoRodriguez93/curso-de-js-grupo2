@@ -31,7 +31,10 @@ elBotonIngresar.style.display = 'none';
 var elEdad = document.getElementById('edad');
 var elError = document.getElementById('error');
 
-elEdad.addEventListener('keyup', function(){
+elEdad.addEventListener('keyup', function(){ //funciones anonimas
+
+    //funciones anonimas con arrow function
+    // () => {}
 
    let edad = Number(elEdad.value);
 
@@ -40,6 +43,7 @@ elEdad.addEventListener('keyup', function(){
    // || o (una cosa o la otra)
    // ! (no es eso)
    // == para comparar igualdad
+   // === mismo tipo y del mismo valor
    // != para comparar no igualdad
 
 
