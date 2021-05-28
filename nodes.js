@@ -67,3 +67,7 @@ elEdad.addEventListener('keyup', function(){ //funciones anonimas
     }
 
 });
+
+// para seleccionar elementos por clase utilizar el metodo document.getElementByClassName
+// esto nos devolvera un array de elementos;
+document.getElementsByClassName('claseDeEjemplo')[0].innerHTML = 'ej 1 modificado';
